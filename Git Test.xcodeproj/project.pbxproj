@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DE7EDBB18D92ACD00150215 /* JHTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE7EDBA18D92ACD00150215 /* JHTest.m */; };
 		7DEEFA3218D7DF6C0038BC55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEEFA3118D7DF6C0038BC55 /* Foundation.framework */; };
 		7DEEFA3418D7DF6C0038BC55 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEEFA3318D7DF6C0038BC55 /* CoreGraphics.framework */; };
 		7DEEFA3618D7DF6C0038BC55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEEFA3518D7DF6C0038BC55 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7DE7EDB918D92ACD00150215 /* JHTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTest.h; sourceTree = "<group>"; };
+		7DE7EDBA18D92ACD00150215 /* JHTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTest.m; sourceTree = "<group>"; };
 		7DEEFA2E18D7DF6C0038BC55 /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DEEFA3118D7DF6C0038BC55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7DEEFA3318D7DF6C0038BC55 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				7DEEFA4318D7DF6C0038BC55 /* Main.storyboard */,
 				7DEEFA4618D7DF6C0038BC55 /* JHViewController.h */,
 				7DEEFA4718D7DF6C0038BC55 /* JHViewController.m */,
+				7DE7EDB918D92ACD00150215 /* JHTest.h */,
+				7DE7EDBA18D92ACD00150215 /* JHTest.m */,
 				7DEEFA4918D7DF6C0038BC55 /* Images.xcassets */,
 				7DEEFA3818D7DF6C0038BC55 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DEEFA4218D7DF6C0038BC55 /* JHAppDelegate.m in Sources */,
+				7DE7EDBB18D92ACD00150215 /* JHTest.m in Sources */,
 				7DEEFA4818D7DF6C0038BC55 /* JHViewController.m in Sources */,
 				7DEEFA3E18D7DF6C0038BC55 /* main.m in Sources */,
 			);
@@ -457,6 +463,7 @@
 				7DEEFA6218D7DF6C0038BC55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DEEFA6318D7DF6C0038BC55 /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				7DEEFA6518D7DF6C0038BC55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
